@@ -202,7 +202,7 @@ const HomePage = () => {
               <SearchInputMemo setSearch={setSearch} />
               <button
               onClick={open} 
-              className="outline-none py-2 px-2 border-1 rounded-[10px] border-[1px] border-blue-600 text-[20px] text-blue-600 hover:bg-blue-600 hover:text-white duration-300 transition-all ">
+              className="outline-none py-2 px-2 border rounded-[10px]  border-blue-600 text-[20px] text-blue-600 hover:bg-blue-600 hover:text-white duration-300 transition-all ">
                 Mahsulotlar qo'shish
               </button>
             </div>

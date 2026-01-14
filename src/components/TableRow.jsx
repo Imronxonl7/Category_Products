@@ -13,10 +13,13 @@ const TableRow = ({ name, description, category, price, quantity }) => {
       <td className="px-6 py-4">{category}</td>
       <td className="px-6 py-4">$ {price}</td>
       <td className="px-6 py-4">{quantity} kg</td>
-      <td className="px-6 py-4">$ {Math.ceil(price * quantity)}</td>
-      <td className="px-6 py-4 text-right">
-        <a href="#" className="font-medium text-fg-brand hover:underline">
+      <td className="px-6 py-4 pl-10">$ {Math.ceil(price * quantity)}</td>
+      <td className="px-6 py-4 flex gap-5 text-right">
+        <a href="#" className="font-medium text-blue-700 hover:underline">
           Edit
+        </a>
+        <a href="#" className="font-medium text-red-700 hover:underline">
+          Delete
         </a>
       </td>
     </tr>
