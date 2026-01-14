@@ -184,7 +184,7 @@ const HomePage = () => {
 
   function open() {
     setIsModal(true)
-  }
+  };
   function close() {
     setIsModal(false)
   }
